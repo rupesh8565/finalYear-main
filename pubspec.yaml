@@ -1,0 +1,161 @@
+name: profix_new
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.2.0
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.4.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+  
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/VaccumCleaning.png
+    - assets/Google.png
+    - assets/Facebook.PNG
+    - assets/CleanerRayan.PNG
+    - assets/KitchenEmran.PNG
+    - assets/CateringJohn.PNG
+    - assets/PhotographerAlice.PNG
+    - assets/OfficeMicheal.PNG
+    - assets/LeakGrace.PNG
+    - assets/BathroomGracy.PNG
+    - assets/ClogNiraj.PNG
+    - assets/GasRaju.PNG
+    - assets/SitaRaiCleaner.PNG
+    - assets/RajuShresthaCleaner.PNG
+    - assets/AnitaThapaCleaner.PNG
+    - assets/AnitPurjaCleaner.PNG
+    - assets/KamaldeepCleaning.PNG
+    - assets/SunitadeepCleaner.PNG
+    - assets/RameshdeepCleaner.PNG
+    - assets/AnilWindowCleaner.PNG
+    - assets/PriyaWindowCleaner.PNG
+    - assets/RohitWindowCleaner.PNG
+    - assets/MayaBathroomCleaner.PNG
+    - assets/SureshBathroomCleaner.PNG
+    - assets/PriyankaBathroomCleaner.PNG 
+    - assets/DeepakConstructionCleaner.PNG
+    - assets/AnjaliConstructionCleaner.PNG
+    - assets/RajeshConstructionCleaner.PNG
+    - assets/RajeshKumarPlumber.PNG
+    - assets/AnilPlumber.PNG
+    - assets/SumanPlumber.PNG
+    - assets/SudipPlumber.PNG
+    - assets/RomanPlumber.PNG
+    - assets/LeakRepair.PNG
+    - assets/GeneralCleaning.PNG
+    - assets/DeepCleaning.PNG
+    - assets/WindowCleaning.PNG
+    - assets/BathroomCleaning.PNG
+    - assets/ConstructionCleaning.PNG
+    - assets/RamLeakRepair.PNG
+    - assets/SitaLeakRepair.PNG
+    - assets/GopalLeakRepair.PNG
+    - assets/BathroomInstallation.PNG
+    - assets/ToiletRepair.PNG
+    - assets/SanjayToiletRepair.PNG
+    - assets/PoojaToiletRepair.PNG
+    - assets/RamToiletRepair.PNG
+    - assets/WiringInstallation.PNG
+    - assets/JohnWiring.PNG
+    - assets/JaneWiring.PNG
+    - assets/DavidWiring.PNG
+    - assets/LightingInstallation.PNG
+    - assets/HariLighting.PNG
+    - assets/AshaLighting.PNG
+    - assets/BikashLighting.PNG
+    - assets/ElectricalRepair.PNG
+    - assets/LaxmiElectricalRepair.PNG
+    - assets/KrishnaElectricalRepair.PNG
+    - assets/SalinaElectricalRepair.PNG
+    - assets/RajivElectrician.PNG
+    - assets/AnitaElectrician.PNG
+    - assets/SunilElectrician.PNG
+    - assets/LawnMowing.PNG
+    - assets/RajuLawnMowing.PNG
+    - assets/PratibhaLawnMowing.PNG
+    - assets/PabitraLawnMowing.PNG
+    - assets/Planting.PNG
+    - assets/RabinPlanting.PNG
+    - assets/SaboPlanting.PNG
+    - assets/SabiPlanting.PNG
+    - assets/GardenDesign.PNG
+    - assets/RadhikaGardenDesign.PNG
+    - assets/SharmilaGardenDesign.PNG
+    - assets/GojoGardenDesign.PNG
+    - assets/RaviGardener.PNG
+    - assets/MeeraGardener.PNG
+    - assets/NitinGardener.PNG
+    - assets/InteriorPainting.PNG
+    - assets/RamitaInteriorPainting.PNG
+    - assets/ShivaniInteriorPainting.PNG
+    - assets/GopiInteriorPainting.PNG
+    - assets/ExteriorPainting.PNG
+    - assets/RasmitaExteriorPainting.PNG
+    - assets/SujanExteriorPainting.PNG
+    - assets/SamarpanExteriorPainting.PNG
+    - assets/WallpaperInstallation.PNG
+    - assets/BishalWallpaperInstallation.PNG
+    - assets/GitaWallpaperInstallation.PNG
+    - assets/KaiWallpaperInstallation.PNG
+    - assets/ArjunPainter.PNG
+    - assets/NeetaPainter.PNG
+    - assets/RajeshPainter.PNG
+    - assets/DeepakACrepair.PNG
+    - assets/SumanACrepair.PNG
+    - assets/RajACrepair.PNG
+    - assets/ACInstallation.PNG
+    - assets/RameshACInstallation.PNG
+    - assets/SimranACInstallation.PNG
+    - assets/RabinACInstallation.PNG
